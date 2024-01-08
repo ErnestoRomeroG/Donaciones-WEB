@@ -1,0 +1,197 @@
+* {
+
+  font-family: 'Inter', sans-serif;
+}
+.continue-button button {
+  width: 100%;
+  margin-top: 2.5rem;
+  border: none;
+  background-color: #000000;
+  padding: 0.62rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.continue-button button:hover {
+  background-color: #3a3a3af1;
+}
+
+.continue-button button a {
+  text-decoration: none;
+  font-size: 0.93rem;
+  font-weight: 500;
+  color: #fff;
+}
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.input-box input {
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+  font-size: 0.8rem;
+}
+
+.input-box input:hover {
+  background-color: #eeeeee75;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #929294;
+  border-radius: 1%;
+  background: linear-gradient(rgba(75, 75, 76, 0.87),
+   rgba(75, 75, 76, 0.87));
+  
+}
+
+body{
+  
+  min-height: 100vh;
+  background: linear-gradient(rgba(5, 7, 12, 0.75),
+   rgba(5, 7, 12, 0.75)), url(https://www.proamazonia.org/wp-content/uploads/2020/08/MUJER_RURAL_NAPO_2020-35.jpg)
+  no-repeat center center fixed;
+  background-size: cover;
+
+  
+
+}
+select{
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 180px;
+  padding: 10px 20px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 300;
+  font-size:15px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  background-color: rgb(182, 182, 182);
+  color: #000000;
+  border: 6px solid transparent;
+  border-radius: 5px;
+  background-image: url("arrow-down.png");
+  background-repeat: no-repeat;
+  background-size: 37px;
+  background-position: 247px 0.5px;
+  outline: none;
+  box-shadow: 0 0 20px rgb(116, 116, 116);
+}
+select::-ms-expand{
+  display: none;
+}
+select:hover{
+  border: 6px solid #ffe366;
+}
+select option{
+  background-color: #c7df72;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.selected{
+  display: none;
+  
+}
+p{
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  color: #fff;
+  background-color: #000000;
+}
+header{
+display: flex;
+height: 90px;
+background-color: rgb(0, 0, 0);
+color: #ecd927;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+border-bottom: 2px solid black;
+border-top: 2px solid black;
+border-left: 30px solid yellow;
+border-right: 30px solid rgb(255, 255, 255);
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  height: 110px;
+  width: 300px;
+  padding: 50px;
+}
+h6{
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  color: #fff;
+  background-color: #000000;
+}
+.ok{
+  text-align: center;
+  width: 98;
+  padding: 12px;
+  background-color: rgb(216, 219, 1);
+  color: #000000;
+}
+.bad{
+  text-align: center;
+  width: 98%;
+  padding: 12px;
+  background-color: #a22;
+  color: #fff;
+}
+input[type='submit']{
+  display: flex;
+  width: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 70;
+  border-radius: 10px;
+  margin:  10px 55px;
+  padding: 0px 150px;
+  background-color: yellow;
+  color:#000000;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+
+}
+:required{
+  color:#a22
+}
+a{
+  display: flex;
+  width: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 50;
+  border-radius: 10px;
+  margin:  10px 75px;
+  padding: 0px 140px;
+  background-color: yellow;
+  color:#000000;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+}
+a:hover{
+  background-color: transparent;
+  border: 2px solid #48e;
+  color: #ecd927;
+}
